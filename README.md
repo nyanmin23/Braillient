@@ -1,44 +1,44 @@
-# Braillient - Myanmar Text to Braille Translator
+# Braillient 💡
+Helping the blind read – a Burmese Braille text converter for inclusive education.
 
-## About The Tool
-Braillient is a web-based tool designed to translate Myanmar text into Braille, aiming to provide accessible learning resources for visually impaired students in Myanmar. This project was developed by the team "The Quirky Geeks" and was the Winner (Senior Level) at the Hub&Hack 2022 ideation contest.
+## 🏆 Project Overview
+**Braillient** is a web application developed to assist visually impaired students in Myanmar by converting Burmese text into Burmese Braille. It was created as part of the **Hub&Hack 2022** ideation competition, where our team, **The Quirky Geeks**, won first place in the Senior Level category.
 
+This tool aims to close the accessibility gap in the education sector by offering a simple and effective way to generate Braille learning materials — something that mainstream smart education apps often overlook.
 
-## About The Project
-In Myanmar, visually impaired students often face significant barriers to education due to a lack of accessible learning materials. Braillient addresses this challenge by offering a simple and effective way to convert standard Myanmar text into Braille, which can then be used for creating Braille learning materials. This tool is designed to empower visually impaired children with essential resources for their education.
+---
 
+## ✨ Features
+- 🔠 Converts **typed Myanmar (Burmese) text** into Burmese Braille.
+- 🧑‍💻 Clean, minimal interface designed with accessibility in mind.
+- ⚙️ Functional buttons: `Convert`, `Clear`, and `Copy`.
+- 🖨️ Output can be copied for further use, including printing.
 
-## Features
-* **Myanmar Text to Braille Conversion:** Accurately translates input Myanmar text into corresponding Braille characters.
-* **User-Friendly Interface:** Simple and intuitive design for ease of use.
-* **Copy Functionality:** Allows users to easily copy the generated Braille text for use in other applications or for printing.
+---
 
-## How to Use
-1.  **Enter Text:** Type or paste the Myanmar text you want to convert into the provided text box on the website.
-2.  **Convert:** Click the "Convert" button to generate the Braille translation.
-3.  **Copy:** Click the "Copy" button to copy the generated Braille text to your clipboard.
-4.  **Utilize:** You can now paste the Braille text into a document editor for printing or use it as needed.
+## 📌 Motivation
+In Myanmar, students with visual impairments face significant challenges due to the lack of accessible educational tools. Our team wanted to create a localized solution that can translate content into Braille to support their learning journey — empowering them with the resources they deserve.
 
+---
 
-## The Team - The Quirky Geeks
-This project was brought to life by the dedicated members of "The Quirky Geeks":
-* Zwe Paing Htut
-* Nyan Min Htet
-* Nyan Lin Htet
+## 🎨 My Role
+As the **UI/UX Designer and QA Tester**, I:
+- Drafted the interface layout and selected UI elements.
+- Designed the component placement for usability.
+- Conducted beta testing and debugging to ensure a smooth user experience before presenting it to the judges.
 
+---
 
-## Contributions
-As a designer on the team, [Your Name - if you want to mention yourself specifically, otherwise the team section covers it] was responsible for drafting the website's design, determining component placement, gathering UI resources, beta testing, and debugging.
+## 🛠️ Tech Stack
+- **Frontend:** HTML, CSS, JavaScript
+- **Translation Logic:** Basic mapping of Burmese Unicode characters to Braille equivalents
+- **Design Tools:** Pen & paper wireframes, browser-based prototyping
 
-## Built With
-* [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
-* [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
-* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+---
 
-## Hub&Hack 2022 Contest
-Hub&Hack was a 5-day ideation contest held from April 27th to May 1st, 2022, challenging participants to innovate software solutions for Smart Education. "The Quirky Geeks" were honored to be selected as the Senior Level Winners. More information about the event can be found [here](https://thatepanhub.org/news/hub-and-hack-press-release-2022/).
+## 🚀 Getting Started
+1. Clone this repository:
 
-
-## License
-
-Copyright (c) [2022] The Quirky Geeks – All Rights Reserved.
+   ```bash
+   git clone https://github.com/your-username/braillient.git
+   cd braillient
