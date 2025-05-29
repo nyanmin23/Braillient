@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Burmese to braille</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="icons/house-solid.svg">
+  </head>
+
+  <body>
+    <div id="body-wrapper">
+      <div id="head">
+        <div id="darken-filter"></div>
+        <header>
+          <div id="head-wrapper">
+            <a href="home.html">
+              <div id="logo-container">
+                <img src="icons/logo.png" class="logo" alt="" />
+                <div>
+                  <h1>Braillient</h1>
+                  <p>helping the blind read</p>
+                </div>
+              </div>
+            </a>
+            <div id="menu-btn" class="icon">
+              <img
+                src="icons/bars-solid.svg"
+                class="icon clickable"
+                alt="hamburger icon"
+              />
+            </div>
+          </div>
+        </header>
+        <div id="hidden-menu">
+          <div id="close-btn" class="clickable">
+            <img src="icons/xmark-solid.svg" class="icon" alt="closing div" />
+          </div>
+          <div id="tab-wrapper">
+            <a class="tab clickable current" href="home.html">
+              <div class="tab-content-wrapper">
+                <img src="icons/house-solid.svg" class="icon" alt="home icon" />
+                <p>Home</p>
+              </div>
+            </a>
+            <a class="tab clickable" href="contact.html">
+              <div class="tab-content-wrapper">
+                <img src="icons/phone-solid.svg" class="icon" alt="home icon" />
+                <p>Contact Us</p>
+              </div>
+            </a>
+            <a class="tab clickable" href="about.html">
+              <div class="tab-content-wrapper">
+                <img
+                  src="icons/circle-info-solid.svg"
+                  class="icon"
+                  alt="about icon"
+                />
+                <p>About us</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div id="error-alert">
+        <div id="error-alert-title">
+          <h1 style="font-size: large;">
+            Non-burmese(unicode) character found
+          </h1>
+          <div id="close-error-alert" class="clickable">
+            <img src="icons/xmark-solid.svg" class="icon" />
+          </div>
+        </div>
+        <div id="error-alert-message"></div>
+      </div>
+      <div id="alert">
+        <div id="alert-title">
+          <h1 style="font-size: large;">Copied Braille!</h1>
+          <div id="close-alert" class="clickable">
+            <img src="icons/xmark-solid.svg" class="icon" />
+          </div>
+        </div>
+      </div>
+      <div id="content-wrapper">
+        <div id="instructions-wrapper">
+          <h1>Instructions</h1>
+          <p>
+            1. Enter Burmese(Unicode) in the text box.
+            <br />
+            2. Click the "Convert" button to convert it into Burmese Braille.
+            <br />
+            3. After the conversion, click the "Copy" button to copy the Braille
+            text
+            <br />
+            4. Now, you can finally print the Braille.
+            <br />
+          </p>
+        </div>
+        <div id="io-wrapper">
+          <textarea
+            name="burmese-input"
+            id="burmese"
+            class="text-io clickable"
+            cols="30"
+            rows="10"
+            placeholder="Enter burmese(unicode) here"
+          ></textarea>
+          <div class="btn-wrapper">
+            <div id="convert-btn" class="button clickable">
+              <img
+                src="icons/arrow-right-arrow-left-solid.svg"
+                class="icon"
+                alt="convert icon"
+              />
+              Convert
+            </div>
+            <div id="clear-btn" class="button clickable">
+              <img src="icons/broom-solid.svg" class="icon" alt="clear icon" />Clear
+            </div>
+          </div>
+          <textarea
+            name="braille-preview"
+            id="braille"
+            class="text-io read-only"
+            cols="30"
+            rows="10"
+            placeholder="Braille will appear here"
+            readonly
+          ></textarea>
+          <div class="btn-wrapper">
+            <div id="copy-braille" class="button clickable">
+              <img
+                src="icons/copy-solid.svg"
+                class="icon"
+                alt="copy icon"
+              />Copy
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+  <script src="burmesetobraille.js"></script>
+</html>
