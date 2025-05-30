@@ -1,6 +1,8 @@
 # Braillient 💡
 Helping the blind read – a Burmese Braille text converter for inclusive education.
 
+---
+
 ## 🏆 Project Overview
 **Braillient** is a web application developed to assist visually impaired students in Myanmar by converting Burmese text into Burmese Braille. It was created as part of the **Hub&Hack 2022** ideation competition, where our team, **The Quirky Geeks**, won first place in the Senior Level category.
 
@@ -18,6 +20,14 @@ This tool aims to close the accessibility gap in the education sector by offerin
 
 ## 📌 Motivation
 In Myanmar, students with visual impairments face significant challenges due to the lack of accessible educational tools. Our team wanted to create a localized solution that can translate content into Braille to support their learning journey — empowering them with the resources they deserve.
+
+---
+
+## 👥 Team Members
+**The Quirky Geeks**  
+- Nyan Lin Htet *(UI/UX Design, Debugging, Testing)*  
+- Zwe Paing Htut *(Backend & Logic)*  
+- Nyan Min Htet *(Frontend Integration & Debugging)*
 
 ---
 
