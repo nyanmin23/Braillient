@@ -25,9 +25,9 @@ In Myanmar, students with visual impairments face significant challenges due to 
 
 ## 👥 Team Members
 **The Quirky Geeks**  
-- Nyan Lin Htet *(UI/UX Design, Debugging, Testing)*  
+- Nyan Lin Htet *(Frontend Integration & Debugging)*  
 - Zwe Paing Htut *(Backend & Logic)*  
-- Nyan Min Htet *(Frontend Integration & Debugging)*
+- Nyan Min Htet *(UI/UX Design & Testing)*
 
 ---
 
